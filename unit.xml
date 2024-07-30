@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 127.0.6533 (Windows 10.0.0)" package="unit" timestamp="2024-07-30T19:13:20" id="0" hostname="DESKTOP-4E4RHG7" tests="6" errors="0" failures="0" time="0.137">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/127.0.6533.73 Safari/537.36"/>
+  </properties>
+  <testcase name="TextEditor After appending data, input field should have no text" time="0.069" classname=".TextEditor"/>
+  <testcase name="TextEditor Clicking on append should add the text to the output" time="0.019" classname=".TextEditor"/>
+  <testcase name="TextEditor Multiple click on undo works till output becomes empty" time="0.013" classname=".TextEditor"/>
+  <testcase name="TextEditor Nothing should happen when input is empty and append is clicked" time="0.012" classname=".TextEditor"/>
+  <testcase name="TextEditor Undo works" time="0.012" classname=".TextEditor"/>
+  <testcase name="TextEditor Appending after undo appends correctly" time="0.012" classname=".TextEditor"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

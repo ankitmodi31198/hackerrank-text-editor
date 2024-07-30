@@ -1,0 +1,14 @@
+<div class="layout-column align-items-center mt-50">
+
+  <section class="layout-row align-items-center justify-content-center">
+    <input type="text" class="large" data-test-id="app-input" [(ngModel)]="inputText"/>
+    <button class="" data-test-id="append-button" (click)="appendClickHandler()">Append</button>
+    <button class="" data-test-id="undo-button" (click)="undoClickHandler()">Undo</button>
+  </section>
+
+  <section class="layout-row align-items-center justify-content-center">
+      <div class="card">
+        <div class="card-text" data-test-id="output-field">{{cardText}}</div>
+      </div>
+  </section>
+</div>
